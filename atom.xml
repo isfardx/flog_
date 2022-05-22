@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://isfardx.github.io/flog_/</id>
+    <title>Fardx的博客</title>
+    <updated>2022-05-22T11:42:10.393Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://isfardx.github.io/flog_/"/>
+    <link rel="self" href="https://isfardx.github.io/flog_/atom.xml"/>
+    <logo>https://isfardx.github.io/flog_/images/avatar.png</logo>
+    <icon>https://isfardx.github.io/flog_/favicon.ico</icon>
+    <rights>All rights reserved 2022, Fardx的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[CS4GODOT]]></title>
+        <id>https://isfardx.github.io/flog_/post/cs4godot/</id>
+        <link href="https://isfardx.github.io/flog_/post/cs4godot/">
+        </link>
+        <updated>2022-05-22T06:29:24.000Z</updated>
+        <content type="html"><![CDATA[<p>这是教程总集贴，每当我发更新时便会在这里更新。<br>
+<a href="https://isfardx.github.io/flog_/post/c4godot_1huan-jing-pei-zhi">C#4Godot_1:环境配置</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://isfardx.github.io/flog_/post/about/</id>
+        <link href="https://isfardx.github.io/flog_/post/about/">
+        </link>
+        <updated>2019-01-25T11:09:48.000Z</updated>
+        <content type="html"><![CDATA[<p>欢迎！这是fardx的个人博客！<br>
+你可以在这里学到新鲜的东西！</p>
+]]></content>
+    </entry>
+</feed>

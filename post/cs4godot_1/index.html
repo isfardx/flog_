@@ -1,0 +1,200 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>cs4godot_1 | Fardx的博客</title>
+<link rel="shortcut icon" href="https://isfardx.github.io/flog_//favicon.ico?v=1653219654517">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://isfardx.github.io/flog_//styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="cs4godot_1 | Fardx的博客 - Atom Feed" href="https://isfardx.github.io/flog_//atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="在godot中有非常多的人会使用GDScript来进行编程。
+
+的确，GDScript简单，易用，属于得过十年脑血栓的人都能用的编程语言。但在需要性能的时候，GDScript就成了狗都不会用的玩意。因此，我们需要用C#来进行更好的编程。
+
+..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://isfardx.github.io/flog_/">
+  <img class="avatar" src="https://isfardx.github.io/flog_//images/avatar.png?v=1653219654517" alt="">
+  </a>
+  <h1 class="site-title">
+    Fardx的博客
+  </h1>
+  <p class="site-description">
+    
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          Github
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+      
+        <a href="https://isfardx.github.io/flog_/post/cs4godot" class="menu" target="_blank">
+          C#4Godot教程
+        </a>
+      
+    
+      
+        <a href="https://isfardx.github.io/flog_/post/c4godot_1huan-jing-pei-zhi" class="menu">
+          C#4Godot_1
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              cs4godot_1
+            </h2>
+            <div class="post-info">
+              <span>
+                2022-05-22
+              </span>
+              <span>
+                2 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <p>在godot中有非常多的人会使用GDScript来进行编程。<br>
+<img src="https://s2.loli.net/2022/05/22/lrCIZt9uesBy8QO.png" alt="Snipaste_2022-05-22_16-57-06.png" loading="lazy"><br>
+的确，GDScript简单，易用，属于得过十年脑血栓的人都能用的编程语言。但在需要性能的时候，GDScript就成了狗都不会用的玩意。因此，我们需要用C#来进行更好的编程。<br>
+<img src="https://s2.loli.net/2022/05/22/VKsX2Ck4oFz3BOE.jpg" alt="v2-3d2b25d47ccfa0595eb6d4bd4a42f7a7_720w.jpg" loading="lazy"><br>
+C#有以下几个特点：<br>
+1、运用范围广，在游戏/ 应用程序（.Net)等领域都有C#的身影。<br>
+2、简单易学，没有C++那么繁琐.<br>
+3、与Java语法类似，学过Java的人可以快速上手。<br>
+4、速度快。</p>
+<p>因此，在Godot运用C#是一件简单而又高效的事情。</p>
+<!-- more -->
+<p>接下来进入环境配置。<br>
+Godot：<br>
+在Godot官网下载Mono版本（这里推荐64位）<br>
+<img src="https://s2.loli.net/2022/05/22/9WoSnt2FYzcKjEO.png" alt="Snipaste_2022-05-22_17-05-31.png" loading="lazy"><br>
+之后解压即可<br>
+Visual Studio:<br>
+首先来到visual studio官网 <a href="https://visualstudio.microsoft.com/zh-hans/">点我跳转</a><br>
+<img src="https://s2.loli.net/2022/05/22/lkECPgyWI5QOobT.png" alt="Snipaste_2022-05-22_17-07-33.png" loading="lazy"><br>
+之后点击download<br>
+<img src="https://s2.loli.net/2022/05/22/HPxZSNoasmXAet1.png" alt="Snipaste_2022-05-22_17-07-49.png" loading="lazy"><br>
+这三个中选Community<br>
+点完之后就开始下载了<br>
+下载完以后双击打开，之后跟着软件操作<br>
+如果你操作无误，应该会弹出这样的窗口<br>
+<img src="https://s2.loli.net/2022/05/22/MoHNLs36FVvjCxI.png" alt="Snipaste_2022-05-22_17-11-13.png" loading="lazy"><br>
+之后勾选.Net开发<br>
+然后就开始下载了<br>
+下载好之后启动Visual Studio根据软件提示操作，等到弹出项目界面，环境就配置好了。</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://isfardx.github.io/flog_//atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
